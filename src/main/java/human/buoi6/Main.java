@@ -1,4 +1,4 @@
-package Buoi_6;
+package human.buoi6;
 
 public class Main {
     public static void main(String[] args) {
@@ -12,7 +12,7 @@ public class Main {
         System.out.println(10 - 2);
         System.out.println(10 * 2);
         System.out.println(10 / 2);
-        System.out.println(9 % 2); // 1 số  dư
+        System.out.println(9 % 2); // 1 số dư
         String stringA = "ABC";
         String stringB = "DEF";
         // Toán tử cộng chuỗi trong String thì sẽ nối 2 chuỗi lại với nhau
@@ -22,7 +22,8 @@ public class Main {
         // Toán tử =
         // Cách hoạt động là gán giá trị phía bên phải dấu bằng cho giá trị/biến ở phái bên trái
         // Đối với các toán tử +=, -=, *=, /=, %=
-        // Khi sử dụng ta thay đôi giá trị dựa theo dấu cảu toán tử với khoảng thay đổi là giá trị bên phải của toán tử
+        // Khi sử dụng ta thay đôi giá trị dựa theo dấu cảu toán tử với khoảng thay đổi là giá trị
+        // bên phải của toán tử
         // Ví dụ: 2 += 3 => 5
         int number = 100;
         // number = number + 100;
@@ -51,7 +52,7 @@ public class Main {
         // Điểm hoat động tốt > 90
         double gpa = 9.0;
         int diemChuyenCan = 95;
-        System.out.print("Được phát học bổng : " );
+        System.out.print("Được phát học bổng : ");
         System.out.println(gpa >= 8.5 && diemChuyenCan >= 90);
         // Toán tử ||
         // Để tốt nghiệp thì phải làm đồ án hoặc
@@ -72,3 +73,4 @@ public class Main {
 
     }
 }
+

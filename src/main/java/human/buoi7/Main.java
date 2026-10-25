@@ -1,6 +1,10 @@
 package human.buoi7;
 
+import static java.lang.String.valueOf;
+import java.util.logging.Logger;
+
 public class Main {
+    static Logger logger = Logger.getLogger(Main.class.getName());
     public static void main(String[] args) {
         // Tiền tố và hậu tố
         // # Tiền tố
@@ -8,19 +12,19 @@ public class Main {
         // Ví dụ
         int a = 10;
         int b = 100;
-        int c = ++a + ++b; // 112 = 11 + 101
+        int c = (++a) + ++b; // 112 = 11 + 101
         System.out.println(a); // 11
         System.out.println(b); // 101
+        System.out.println(c);
         // System.out.println(c);
         // Hậu tố
         // Hậu tố sử dụng giá trị của biến trong biểu thức trước khi tăng hoặc giảm gía trị đi
         // Cú pháp <Tên biến>++/--
-        // Ví dụ
+        // Ví dụ:
         int d = a-- + b--;
-        System.out.println(d); // 11 + 101 = 112;
+        System.out.println(d); /* 11 + 101 = 112; */
         System.out.println(a); // 10
         System.out.println(b); // 100
-
         // Ép kiểu dữ liệu
         // Ép kiểu mở rộng
         // Tức là mở rộng khoản giá trị của một kiểu dữ liệu sang kiểu dữ liệu lớn hơn
@@ -38,9 +42,9 @@ public class Main {
         // Chuyển từ số sang String
         // Thì class String hỗ trợ chuyển đổi các kiểu nguyên thủy sang số
         // bằng phương thức valueOf(<Giá trị>);
-        String number6 = String.valueOf(100); // int, long, double, float
+        String number6 = valueOf(100); // int, long, double, float
         System.out.println(number6);
-        String number7 = String.valueOf(111.999); // int, long, double, float
+        String number7 = valueOf(111.999); // int, long, double, float
         System.out.println(number7);
         // Chuyển đổi từ String sang số
         // Bắt buộc chuỗi chỉ chứa duy nhất các ký tự là số nếu chứa ký tự khác sô thì gây lỗi
@@ -58,8 +62,11 @@ public class Main {
         System.out.println(intNum + 1);
         // Lỗi khi String chứa ký tự không phải số
         double doubleNum = Double.parseDouble("999.11a");
+        System.out.println("helo");
         System.out.print("fuck");
-
+        System.out.println(doubleNum);
+        int numberOneTwoThree = 1200;
+        logger.info(valueOf(numberOneTwoThree));
     }
 }
 

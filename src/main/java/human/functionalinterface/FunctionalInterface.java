@@ -1,5 +1,7 @@
 package human.functionalinterface;
 
 public class FunctionalInterface {
-    public static void Main(String[] args) {}
+    public static void Main(String[] args) {
+        
+    }
 }

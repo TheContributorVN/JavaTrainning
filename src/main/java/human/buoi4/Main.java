@@ -1,6 +1,6 @@
 package human.buoi4;
 
-public class Buoi4 {
+public class Main {
     public static void main(String[] args) {
         // System.out.println("Hello, World!"); // In ra dòng chữ Hello, World!
         // In ra một gía trị
@@ -8,11 +8,11 @@ public class Buoi4 {
         // Giá trị là một số , một ký tự một đoạn văn
         // 2, 'c', "I love Việt Nam"
         // In ra nhưng không xuống dòng
-        // Mọi câu lệnh trong java đều kết thúc bằng dấu ;
+        // Mọi câu lệnh trong java đều kết thúc bằng dấu ';'
         // System.out.print(100); // In ra gía trị 10
         // In gía trị rồi xuống dòng mới
         // Sau khi in ra thì sẽ in ra thêm một dòng mới
-        // Cú pháp
+        // Syntax:
         // System.out.println(<Giá trị>);
         // System.out.println("I love Việt Nam");
         // Có 2 kiểu comment
@@ -30,7 +30,7 @@ public class Buoi4 {
         System.out.println("Hello");
         int a = 100;
         System.out.print("Hello");
-
+        System.out.println(a);
     }
 }
 
